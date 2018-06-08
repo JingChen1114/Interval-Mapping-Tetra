@@ -58,6 +58,8 @@ Subroutine for calculating one locus (QTL here) genotype distribution in an outb
 <b> check.for </b>
 Subroutine for selecting parental QTL genotypes
 
+
+
 In the folder QvMethod_FortranSource, source files includes:
 
 <b> main.for </b>
