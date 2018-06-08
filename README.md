@@ -8,6 +8,11 @@
 
 ##### [Usage Instructions](https://github.com/JingChen1114/IntervalMappingTetra#-usage-instructions-)
 
+##### [Input Files](https://github.com/JingChen1114/IntervalMappingTetra#-input-files-)
+
+##### [Output Files](https://github.com/JingChen1114/IntervalMappingTetra#-output-files-)
+
+
 <h2> Introduction </h2>
 
 IntervalMappingTetra is a series of related programs that illustrate the interval mapping method (QvMethod and BvMethod) for QTL analysis in autotetraploid species.
