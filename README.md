@@ -35,7 +35,7 @@ Subroutine for working out the two-locus gametes mode under bivalent pairing
 Subroutine for calculating the probability distribution of two-locus gametes
 
 <b> proba_g_o_multilocus.for </b>
-Subroutine for carrying out multilocus linkage analysis using hidden Markov chain model
+Subroutine for carrying out multilocus linkage analysis by using hidden Markov chain model under bivalent paring
 
 <b> ge_interval.for </b>
 Subroutine used by proba_g_o_multilocus.for to carry out multilocus linkage analysis
@@ -55,4 +55,49 @@ Subroutine for carrying out EM algorithm to obtain the MLE of genotypic value an
 <b> QTLdistribution.for </b>
 Subroutine for calculating one locus (QTL here) genotype distribution in an outbreeding population with bivalent pairing
 
+<b> check.for </b>
+Subroutine for selecting parental QTL genotypes
 
+In the folder QvMethod_FortranSource, source files includes:
+
+<b> main.for </b>
+The main fortran program for carrying our QTL mapping in autotetraploids by assuming quadrivalent pairing during meiosis
+
+<b> ParentQTLGenotype.for </b>
+Subroutine for working out all the possible parental genotypes on QTL for two parents by assuming parent 1 (fqtype) taking higher trait phenotype value
+
+<b> Pr_ChrConfig_Markers.for </b>
+Subroutine for calculating conditional probability of the chromosome configuration of a marker interval for a offspring individual, given all the marker phenotype on the chromosome of an offspring individual and parental marker genotypes
+
+<b> possgamete.for </b>
+Subroutine for working out two-locus gamete modes under quadrivalent pairing
+
+<b> proba_g_o.for </b>
+Subroutine for calculating the probability distribution of two-locus gametes under quadrivalent pairing
+
+<b> proba_g_o_multilocus.for </b>
+Subroutine for carrying out multilocus linkage analysis by using hidden Markov chain model under quadrivalent paring
+
+<b> ge_interval.for </b>
+Subroutine used by proba_g_o_multilocus.for to carry out multilocus linkage analysis
+
+<b> tra_matrix.for </b>
+Subroutine for calculating probability transition matrix in the hidden Markov chain model
+
+<b> check_ph.for </b>
+Subroutine used by proba_g_o_multilocus.for to carry out multilocus linkage analysis
+
+<b> Pr_QTL_ChrConfig.for </b>
+Subroutine for calculating the conditional probability of the QTL genotypes for an offspring individual, given the chromosome configuration and parental QTL genotypes under quadrivalent pairing
+
+<b> proba_q_q.for </b>
+Subroutine for calculating the QTL genotypes distribution given flanking marker configuration
+
+<b> EMalgorithm.for </b>
+Subroutine for carrying out EM algorithm to obtain the MLE of genotypic value and its corresponding likelihood and LOD score for a pupative QTL
+
+<b> QTLdistribution.for </b>
+Subroutine for calculating one locus (QTL here) genotype distribution in an outbreeding population with quadrivalent pairing
+
+<b> check.for </b>
+Subroutine for selecting parental QTL genotypes
