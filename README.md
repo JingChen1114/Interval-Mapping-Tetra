@@ -41,5 +41,18 @@ Subroutine for carrying out multilocus linkage analysis using hidden Markov chai
 Subroutine used by proba_g_o_multilocus.for to carry out multilocus linkage analysis
 
 <b> tra_matrix.for </b>
+Subroutine for calculating probability transition matrix in the hidden Markov chain model
+
+<b> check_ph.for </b>
+Subroutine used by proba_g_o_multilocus.for to carry out multilocus linkage analysis
+
+<b> proba_q_g.for </b>
+Subroutine for calculating the QTL genotype distribution given marker genotype configuration
+
+<b> EMalgorithm.for </b>
+Subroutine for carrying out EM algorithm to obtain the MLE of genotypic value and its corresponding likelihood and LOD score for a pupative QTL
+
+<b> QTLdistribution.for </b>
+Subroutine for calculating one locus (QTL here) genotype distribution in an outbreeding population with bivalent pairing
 
 
