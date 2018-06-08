@@ -103,3 +103,9 @@ Subroutine for calculating one locus (QTL here) genotype distribution in an outb
 
 <b> check.for </b>
 Subroutine for selecting parental QTL genotypes
+
+To use the program an Intel Fortran Compiler is required. The programs can be be compiled and built under Linux or Windows operating systems.
+An example is given here for how to compile, build and run the programs using the Microsoft Visual Studio IDE in Windows.
+
+In Microsoft Developer Studio, open an empty project, give it a name, for example "MyQvMethodAnalysis" and save to the desired location. Add all 14 *.for files as source files in the QvMethod_FortranSource folder to the project.
+Build the solution from the Build menu and check there are no errors in the output window. 
