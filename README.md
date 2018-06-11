@@ -137,3 +137,11 @@ Contains results of estimates along the chromsome, including parental QTL genoty
 
 <b> MappingOutcome2.txt </b>
 Contains the MLE of parenal QTL genotypes, BIC, likelihood, genetic distance, genotypic value and residual error. 
+
+<h2> Example analysis </h2>
+
+<h2> Population simulation </h2>
+Two sets of Fortran 90 source files are provided for simulation of a segregating population under either bivalent or quadrivalent settings for chromosome pairing in an autotetraploid meiosis.
+To simulate offspring populations under either setting, the programs need to be compiled and built as a single fortran project with  
+*.for files as source files in the folder of Simulation_Bv for bivalent pairing or Simulation_Qv for quadrivalent pairing.
+The input file "data_in
